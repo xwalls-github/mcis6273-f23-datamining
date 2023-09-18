@@ -2,7 +2,7 @@
 # Semester Goals in Data Mining
 
 - **Master Data Mining Techniques**
-  - Understand various *algorithms* like decision trees, clustering, and association rule mining.
+  - Understand various ***algorithms*** like decision trees, clustering, and association rule mining.
     
 - **Real-world Application**
   - Apply data mining to *practical datasets* using Python.
