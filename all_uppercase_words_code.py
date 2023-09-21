@@ -1,3 +1,6 @@
+# Xavier Walls
+# MCIS-6273-F2 Data Mining
+
 import re
 import csv
 from collections import Counter
@@ -24,6 +27,6 @@ word_counts = Counter(tokens)
 sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
 
 # Write the results to a CSV file named all_words_starting_with_uppercase.csv
-with open("all_words_starting_with_uppercase.csv", "w", newline="") as csvfile:
+with open("all_uppercase_words.csv", "w", newline="") as csvfile:
     csv_writer = csv.writer(csvfile)
     csv_writer.writerows(sorted_words)

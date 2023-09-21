@@ -1,3 +1,6 @@
+# Xavier Walls
+# MCIS-6273-F2 Data Mining
+
 import csv
 import re
 import urllib.request
@@ -31,4 +34,4 @@ with open("mcis6273-f23-datamining/all_words.csv", "w", newline='') as csvfile:
     for word, frequency in word_counts.items():
         csv_writer.writerow([word, frequency])
 
-print("Word frequencies saved to 'word_frequencies.csv'.")
+print("Word frequencies saved to 'all_words.csv'.")
